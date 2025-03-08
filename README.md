@@ -68,8 +68,8 @@ The fine-tuning process utilizes the subset of [Malikeh1375/medical-question-ans
 
 ### Step 1: Clone the Repository  
 ```bash
-git clone <your-repository-url>
-cd <repository-folder>
+git clone https://github.com/vedants254/Finetuned-GPT2.git
+cd Finetuned-GPT2
 ```
 
 ### Step 2: Create a virtual environment (Recommended)
