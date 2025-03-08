@@ -108,12 +108,4 @@ response = generator(
 print(response[0]['generated_text'])
 ```
 
----
-## 📌 Project Structure
 
-```
-├── data/                  # Dataset used for fine-tuning (if applicable)
-├── model/                 # Fine-tuned GPT-2 model files
-├── requirements.txt       # Python dependencies required for the project
-└── README.md              # Project documentation
-```
