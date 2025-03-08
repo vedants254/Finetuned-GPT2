@@ -3,7 +3,7 @@
 ![Python: 3.7+](https://img.shields.io/badge/python-3.7%2B-blue)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%F0%9F%A4%A9-yellow)
 
-## 📌 Overview
+##  Overview
 This project fine-tunes a **GPT-2 Transformer model** to generate **contextually relevant responses to medical queries** based on subset of dataset [Malikeh1375/medical-question-answering-datasets](https://huggingface.co/datasets/Malikeh1375/medical-question-answering-datasets). The model is trained using **Parameter-Efficient Fine-Tuning (PEFT) with QLoRA**, reducing computational overhead while achieving high accuracy. 
 
 The repository includes:
@@ -12,17 +12,16 @@ The repository includes:
 - **Inference pipeline** for generating real-time responses.
 
 ---
-## 📌 Table of Contents  
+##  Table of Contents  
 - [Features](#features)
 - [Fine-Tuning Process](#fine-tuning-process)
 - [Optimized Generation Parameters](#optimized-generation-parameters)  
 - [Dataset](#dataset)  
-- [Installation & Setup](#installation--setup)  
+- [Installation & Setup](#installation-and-setup)  
 - [Usage Example](#usage-example)
 - [Project Structure](#project-structure)
-
 ---
-## 🚩 Features  
+##  Features  
 
 - **GPT-2 Fine-Tuning**: Specifically fine-tuned GPT-2 model on medical query-response data.  
 - **Parameter-Efficient Fine-Tuning (PEFT)**: Efficient training with reduced computational resources.  
@@ -31,7 +30,7 @@ The repository includes:
 - **Easy-to-use**: Simple setup and inference scripts provided.  
 
 ---
-## 🚀 Fine-Tuning Process
+##  Fine-Tuning Process
 1. **Dataset Preparation**  
    - Tokenization using Hugging Face `Tokenizer`
    - Preprocessing text to align with GPT-2 input format
@@ -46,7 +45,7 @@ The repository includes:
    - **Repetition Penalty** (`1.2`) to avoid redundant outputs
 
 ---
-## ⚙️ Optimized Generation Parameters  
+##  Optimized Generation Parameters  
 
 The following generation parameters were optimized for high-quality outputs:  
 
@@ -60,12 +59,12 @@ max_length = 200
 ```
 
 ---
-## 📚 Dataset  
+##  Dataset  
 
 The fine-tuning process utilizes the subset of [Malikeh1375/medical-question-answering-datasets](https://huggingface.co/datasets/Malikeh1375/medical-question-answering-datasets) from Hugging Face Datasets. This comprises a wide range of medical question-answer pairs, making it ideal for training GPT-2 to generate contextually relevant responses in the healthcare domain.
 
 ---
-## 🚀 Installation and Setup Instructions  
+## Installation and Setup 
 
 ### Step 1: Clone the Repository  
 ```bash
@@ -85,7 +84,7 @@ pip install torch transformers peft datasets accelerate bitsandbytes
 ```
 
 ---
-## 👨‍💻 Usage Example  
+## Usage Example  
 
 Run inference easily with the provided script or notebook:  
 
